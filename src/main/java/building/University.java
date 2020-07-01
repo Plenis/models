@@ -8,11 +8,11 @@ public class University extends EducationalBuilding implements EducationBuilding
 
     @Override
     public String book() {
-        return "Books for educational purposes are available";
+        return "Books for educational purposes available";
     }
 
     @Override
     public String student() {
-        return "Students available here";
+        return "Students available";
     }
 }
